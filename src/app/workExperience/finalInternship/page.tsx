@@ -10,32 +10,32 @@ import ReworkIllustration from '../../../../public/assets/svg/illustrations/appl
 import '../../../i18n/config';
 import Paragraph from '@/components/common/paragraph';
 import WorkExperienceTitle from '@/components/common/workExperienceTitle';
-import type {IconTitle } from '@/@types/componentsType/workExperienceTitle/type';
+import type { IconTitle } from '@/@types/componentsType/workExperienceTitle/type';
 import BackButton from '@/components/common/backButton';
 
 const FinalInternship = () => {
   const { t } = useTranslation();
-  const icons: IconTitle[]  = [
+  const icons: IconTitle[] = [
     {
-        src: NextIcon,
-        alt: ""
+      src: NextIcon,
+      alt: '',
     },
     {
-        src: ReactIcon,
-        alt: ""
+      src: ReactIcon,
+      alt: '',
     },
     {
-        src: AwsIcon,
-        alt: ""
+      src: AwsIcon,
+      alt: '',
     },
     {
-        src: JavascriptIcon,
-        alt: ""
-    }
-]
+      src: JavascriptIcon,
+      alt: '',
+    },
+  ];
   return (
     <div className="w-full flex flex-col">
-      <WorkExperienceTitle title={t('finalIntershipTitle')} icons={icons}/>
+      <WorkExperienceTitle title={t('finalIntershipTitle')} icons={icons} />
       <Separator />
       <Paragraph text="" />
       <Paragraph
@@ -61,8 +61,8 @@ const FinalInternship = () => {
       />
       <Paragraph text={t('finalIntershipSeventhParagraph')} />
       <Paragraph text={t('finalIntershipEighthParagraph')} />
-      <div className='mx-auto'>
-        <BackButton/>
+      <div className="mx-auto">
+        <BackButton />
       </div>
     </div>
   );

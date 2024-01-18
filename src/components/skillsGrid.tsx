@@ -27,7 +27,7 @@ const SkillsGrid = () => {
   return (
     <div className="grid grid-cols-9 my-5">
       {/* 1st Line */}
-      <SkillIcon src={KendoUIIcon} alt='Kendo Ui'/>
+      <SkillIcon src={KendoUIIcon} alt="Kendo Ui" />
       <div></div>
       <div>
         <SkillIcon src={GitLabIcon} alt="GitLab" />

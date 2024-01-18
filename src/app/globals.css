@@ -1,4 +1,3 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -23,7 +22,7 @@
   font-style: normal;
 }
 
-html{
+html {
   font-family: 'Merriweather';
 }
 
@@ -37,9 +36,9 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-@media (max-width: 800px){
+@media (max-width: 800px) {
   .mobile-layout {
-    width: 95%!important;
+    width: 95% !important;
   }
   .mobile-body {
     width: 95% !important;
@@ -56,11 +55,11 @@ body {
   .mobile-work-experience-title {
     flex-direction: column;
   }
-  .mobile-center{
+  .mobile-center {
     margin-inline: auto !important;
     margin-block: 1rem;
   }
-  .mobile-work-experience-section-width{
+  .mobile-work-experience-section-width {
     width: 100% !important;
   }
 }

@@ -12,7 +12,9 @@ const Welcome = () => {
     <div className="flex flex-col w-full">
       <div className="flex flex-row w-full my-5">
         <div className="flex flex-col w-3/4">
-          <h1 className="text-5xl mobile-subtitle font-black mb-2">{t('welcome')}</h1>
+          <h1 className="text-5xl mobile-subtitle font-black mb-2">
+            {t('welcome')}
+          </h1>
           <div className="text-xl text-justify">{t('welcomeText')}</div>
         </div>
         <div className="pl-10 flex items-center">

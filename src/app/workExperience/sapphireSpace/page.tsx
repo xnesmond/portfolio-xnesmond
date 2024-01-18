@@ -14,28 +14,28 @@ import type { IconTitle } from '@/@types/componentsType/workExperienceTitle/type
 import BackButton from '@/components/common/backButton';
 
 const SapphireSpace = () => {
-  const icons: IconTitle[]  = [
+  const icons: IconTitle[] = [
     {
-        src: NextIcon,
-        alt: ""
+      src: NextIcon,
+      alt: '',
     },
     {
-        src: ReactIcon,
-        alt: ""
+      src: ReactIcon,
+      alt: '',
     },
     {
-        src: AwsIcon,
-        alt: ""
+      src: AwsIcon,
+      alt: '',
     },
     {
-        src: JavascriptIcon,
-        alt: ""
-    }
-]
+      src: JavascriptIcon,
+      alt: '',
+    },
+  ];
   const { t } = useTranslation();
   return (
     <div className="w-full flex flex-col">
-      <WorkExperienceTitle title={t("sapphireSpaceTitle")} icons={icons}/>
+      <WorkExperienceTitle title={t('sapphireSpaceTitle')} icons={icons} />
       <Separator />
       <Paragraph
         text={t('sapphireSpaceFirstParagraph')}
@@ -56,8 +56,8 @@ const SapphireSpace = () => {
         paragraphView="leftIcon"
       />
       <Paragraph text={t('sapphireSpaceFifthParagraph')} />
-      <div className='mx-auto'>
-        <BackButton/>
+      <div className="mx-auto">
+        <BackButton />
       </div>
     </div>
   );

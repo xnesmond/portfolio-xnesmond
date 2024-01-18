@@ -30,7 +30,11 @@ const Header = () => {
       </div>
       <div className="flex ml-auto gap-2">
         <button
-          className={enButtonSelected ? 'underline text-4xl mobile-subtitle font-black' : 'text-4xl mobile-subtitle font-black'}
+          className={
+            enButtonSelected
+              ? 'underline text-4xl mobile-subtitle font-black'
+              : 'text-4xl mobile-subtitle font-black'
+          }
           onClick={() => {
             changeLanguage('en');
           }}
@@ -38,7 +42,11 @@ const Header = () => {
           En
         </button>
         <button
-          className={frButtonSelected ? 'underline text-4xl mobile-subtitle font-black' : 'text-4xl mobile-subtitle font-black'}
+          className={
+            frButtonSelected
+              ? 'underline text-4xl mobile-subtitle font-black'
+              : 'text-4xl mobile-subtitle font-black'
+          }
           onClick={() => {
             changeLanguage('fr');
           }}
