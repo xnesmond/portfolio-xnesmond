@@ -1,0 +1,42 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:@next/next/recommended",
+    "next/core-web-vitals"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "@typescript-eslint"],
+  "rules": {
+    "react/react-in-jsx-scope": "off", // Pas nécessaire avec Next.js car React est automatiquement importé
+    "react/prop-types": "off", // Pas nécessaire avec TypeScript
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      { "argsIgnorePattern": "^_" }
+    ], // Ignorer les arguments non utilisés qui commencent par '_'
+    "no-console": "warn", // Avertissement pour les appels console
+    "react-hooks/rules-of-hooks": "error", // Vérifier les règles des Hooks
+    "react-hooks/exhaustive-deps": "warn", // Vérifier les tableaux de dépendances des Hooks
+    "max-len": ["error", { "code": 100 }]
+    // Ajoutez d'autres règles personnalisées ici
+  },
+  "settings": {
+    "react": {
+      "version": "detect" // Détecte automatiquement la version de React
+    }
+  }
+}
