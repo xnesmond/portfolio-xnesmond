@@ -8,7 +8,7 @@ interface ImageProps {
 }
 const SkillIcon = ({ src, alt }: ImageProps) => {
   const [descriptionVisibility, setDescriptionVisibility] =
-    useState<Boolean>(false);
+    useState<boolean>(false);
   function showDescription() {
     setDescriptionVisibility(true);
   }

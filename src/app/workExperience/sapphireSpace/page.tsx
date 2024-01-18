@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import NextIcon from '../../../../public/assets/svg/icons/Next-Icon.svg';
 import AwsIcon from '../../../../public/assets/svg/icons/Aws-Icon.svg';
 import JavascriptIcon from '../../../../public/assets/svg/icons/Javascript-Icon.svg';
-import ReactIcon from '../../../../public/assets/svg/icons/React-Icon.svg';
+import ReactIcon from '../../../../public/assets/svg/icons/ReactJS-Icon.svg';
 import SapphireIllustration from '../../../../public/assets/svg/illustrations/sapphire.svg';
 import CloudIllustration from '../../../../public/assets/svg/illustrations/cloud.svg';
 import '../../../i18n/config';

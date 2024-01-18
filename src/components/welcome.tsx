@@ -1,7 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import Image from 'next/image';
 import ProfilePicture from '../../public/assets/svg/picture/cvPicture.svg';
-import ReaactIcon from '../../public/assets/svg/icons/React-icon.svg';
+import ReaactIcon from '../../public/assets/svg/icons/ReactJS-Icon.svg';
 import VueIcon from '../../public/assets/svg/icons/Vue-Icon.svg';
 import JavascriptIcon from '../../public/assets/svg/icons/Javascript-Icon.svg';
 import TYpeScriptIcon from '../../public/assets/svg/icons/Typescript-Icon.svg';
