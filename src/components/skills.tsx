@@ -13,7 +13,7 @@ const Skills = () => {
       <div className="w-full">
         <Separator />
       </div>
-      <div>
+      <div className='mb-16'>
         <SkillsGrid />
       </div>
     </div>
