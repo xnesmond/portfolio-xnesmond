@@ -62,4 +62,16 @@ body {
   .mobile-work-experience-section-width {
     width: 100% !important;
   }
+
+  .mobile-paragraph {
+    flex-direction: column;
+
+    div{
+      width: 100% !important;
+    }
+
+    img{
+      margin-inline: auto;
+    }
+  }
 }

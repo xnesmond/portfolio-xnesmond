@@ -30,7 +30,7 @@ const ParagraphWithRightIcon = ({
   description,
 }: ParagraphPropsWithIcon) => {
   return (
-    <div className="flex flex-row w-full items-center">
+    <div className="flex flex-row w-full items-center mobile-paragraph">
       <div className="text-xl my-2 text-justify w-10/12">{text}</div>
       <div className="mx-auto px-4">
         <Image
@@ -51,7 +51,7 @@ const ParagraphWithLeftIcon = ({
   description,
 }: ParagraphPropsWithIcon) => {
   return (
-    <div className="flex flex-row w-full items-center">
+    <div className="flex flex-row w-full items-center mobile-paragraph">
       <div className="px-2">
         <Image
           src={photo}
