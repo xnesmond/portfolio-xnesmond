@@ -15,7 +15,7 @@ const About = () => {
       </div>
       <div className="w-8/12 hover:shadow-xl" onClick={goToAbout}>
         <div className="text-4xl mobile-subtitle font-black">{t('about')}</div>
-        <div className="text-xl">
+        <div className="text-xl hover:underline">
           <p>
             {t('aboutText')} <a className="font-black">{t('aboutPageLink')}</a>
           </p>
