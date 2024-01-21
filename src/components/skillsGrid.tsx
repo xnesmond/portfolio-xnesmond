@@ -72,7 +72,7 @@ const SkillsGrid = () => {
       </div>
       <div></div>
       <div>
-        <SkillIcon src={PostgresIcon} alt="Tailwind Icon" />
+        <SkillIcon src={PostgresIcon} alt="Postgres" />
       </div>
       <div></div>
       <div>

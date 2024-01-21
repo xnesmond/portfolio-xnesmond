@@ -16,7 +16,7 @@ const SkillIcon = ({ src, alt }: ImageProps) => {
     setDescriptionVisibility(false);
   }
   return (
-    <div onMouseEnter={showDescription} onMouseLeave={hideDescription}>
+    <div onMouseEnter={showDescription} onMouseLeave={hideDescription} className='cursor-pointer'>
       <Image src={src} alt={alt} width={50} height={50} />
       {descriptionVisibility && (
         <div className="z-10 absolute ">

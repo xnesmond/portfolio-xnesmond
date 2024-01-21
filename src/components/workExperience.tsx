@@ -17,7 +17,7 @@ const WorkExperience = () => {
       </div>
       <Separator />
       <div className="flex flex-row gap-2 mobile-work-experience-title">
-        <div className="flex flex-col w-4/12 mobile-work-experience-section-width">
+        <div className="flex flex-col w-4/12 cursor-pointer mobile-work-experience-section-width">
           <div>
             <h2 className="text-2xl font-black my-2 break-words">
               {t('sapphireSpaceTitle')}
@@ -33,7 +33,7 @@ const WorkExperience = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col w-4/12 mobile-work-experience-section-width">
+        <div className="flex flex-col w-4/12 cursor-pointer mobile-work-experience-section-width">
           <div>
             <h2 className="text-2xl font-black my-2 break-words">
               {t('colibriSOPTitle')}
@@ -49,7 +49,7 @@ const WorkExperience = () => {
             </p>
           </div>
         </div>
-        <div className="flex flex-col w-4/12 mobile-work-experience-section-width">
+        <div className="flex flex-col w-4/12 cursor-pointer mobile-work-experience-section-width">
           <div>
             <h2 className="text-2xl font-black my-2 break-words">
               {t('finalIntershipTitle')}

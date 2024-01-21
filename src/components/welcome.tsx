@@ -5,6 +5,7 @@ import ReaactIcon from '../../public/assets/svg/icons/ReactJS-Icon.svg';
 import VueIcon from '../../public/assets/svg/icons/Vue-Icon.svg';
 import JavascriptIcon from '../../public/assets/svg/icons/Javascript-Icon.svg';
 import TYpeScriptIcon from '../../public/assets/svg/icons/Typescript-Icon.svg';
+import SkillIcon from './common/skillIcon';
 
 const Welcome = () => {
   const { t } = useTranslation();
@@ -28,31 +29,16 @@ const Welcome = () => {
       </div>
       <div className="flex flex-row gap-5 px-5 ml-36 mb-5">
         <div>
-          <Image
-            src={ReaactIcon}
-            alt={'xavier nesmond'}
-            width={50}
-            height={54}
-          />
+          <SkillIcon src={ReaactIcon} alt='React JS'/>
         </div>
         <div>
-          <Image src={VueIcon} alt={'xavier nesmond'} width={50} height={54} />
+          <SkillIcon src={VueIcon} alt={'Vue JS'}/>
         </div>
         <div>
-          <Image
-            src={JavascriptIcon}
-            alt={'xavier nesmond'}
-            width={50}
-            height={54}
-          />
+          <SkillIcon src={JavascriptIcon} alt={'Javascript'}/>
         </div>
         <div>
-          <Image
-            src={TYpeScriptIcon}
-            alt={'xavier nesmond'}
-            width={50}
-            height={54}
-          />
+          <SkillIcon src={TYpeScriptIcon} alt={'TypeScript'}/>
         </div>
       </div>
     </div>

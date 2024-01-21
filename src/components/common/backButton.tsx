@@ -7,7 +7,7 @@ const BackButton = () => {
     router.push('/');
   }
   return (
-    <div className='hover:shadow-lg'>
+    <div className='hover:shadow-lg rounded-lg p-2'>
       <Image src={BackButtonIllustration} alt="go Home" onClick={goHome} />
     </div>
   );

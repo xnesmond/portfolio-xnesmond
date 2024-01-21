@@ -13,7 +13,7 @@ const About = () => {
       <div className="w-4/12 flex items-center">
         <Image src={Saturn} alt={'my world'} width={252} height={91} />
       </div>
-      <div className="w-8/12 hover:shadow-xl" onClick={goToAbout}>
+      <div className="w-8/12 hover:shadow-xl cursor-pointer" onClick={goToAbout}>
         <div className="text-4xl mobile-subtitle font-black">{t('about')}</div>
         <div className="text-xl hover:underline">
           <p>

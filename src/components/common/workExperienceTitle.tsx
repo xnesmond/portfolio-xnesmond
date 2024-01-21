@@ -7,7 +7,7 @@ import BackButton from '@/components/common/backButton';
 const WorkExperienceTitle = ({ title, icons }: WorkExperienceTitleProps) => {
   return (
     <div className="w-full my-5 flex flex-row mobile-work-experience-title items-center">
-      <div className="-ml-24 mobile-center">
+      <div className="-ml-24 pr-5 mobile-center">
         <BackButton />
       </div>
       <p className="text-5xl font-black text-start">{title}</p>
