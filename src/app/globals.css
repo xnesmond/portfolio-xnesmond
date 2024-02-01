@@ -27,7 +27,7 @@ html {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  color: #2d3436;
   background: linear-gradient(
       to bottom,
       transparent,
