@@ -25,7 +25,7 @@ const WorkExperience = () => {
           </div>
           <div
             onClick={() => goToWorkExperiencePage('sapphireSpace')}
-            className="hover:shadow-xl hover:underline"
+            className="hover:shadow-xl"
           >
             <p>
               {t('sapphireSpaceResume')}{' '}
@@ -41,7 +41,7 @@ const WorkExperience = () => {
           </div>
           <div
             onClick={() => goToWorkExperiencePage('colibriSOP')}
-            className="hover:shadow-xl hover:underline"
+            className="hover:shadow-xl"
           >
             <p>
               {t('colibriSOPText')}{' '}
@@ -57,7 +57,7 @@ const WorkExperience = () => {
           </div>
           <div
             onClick={() => goToWorkExperiencePage('finalInternship')}
-            className="hover:shadow-xl hover:underline"
+            className="hover:shadow-xl"
           >
             <p>
               {t('finalInternshipResume')}{' '}
